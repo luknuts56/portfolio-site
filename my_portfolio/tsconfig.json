@@ -18,8 +18,9 @@
         "name": "next"
       }
     ],
-    "baseUrl": "src/",
+    "baseUrl": "./",
     "paths": {
+      "@/*": ["./*"],
       "@/components/*": ["components/*"],
       "@/lib/*": ["lib/*"],
       "@/styles/*": ["styles/*"]
